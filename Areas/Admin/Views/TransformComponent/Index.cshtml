@@ -1,0 +1,54 @@
+﻿@using PurpleBuzz.Areas.Admin.ViewModels.TransformComponent
+@model TransformComponentIndexVM
+
+              <!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Transform Components</h1>
+
+    <a class="btn btn-primary" asp-action="create", asp-controller="transformcomponent">Create</a>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Subtitle</th>
+                            <th>IsDeleted</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var transformComponent in Model.TransformComponents)
+                        {
+                            <tr>
+                                <td>@transformComponent.Title</td>
+                                <td>@transformComponent.Subtitle</td>
+                                <td>
+                                    @if (!transformComponent.IsDeleted)
+                                    {
+                                        <span class="text-success">Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-danger">Non-active</span>
+                                    }
+
+                                </td>
+                                <td><a asp-action="details" asp-controller="transformcomponent" asp-route-id="@transformComponent.Id" class="btn btn-info">Details</a></td>
+                                
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

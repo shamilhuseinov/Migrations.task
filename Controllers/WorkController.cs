@@ -11,18 +11,20 @@ namespace PurpleBuzz.Controllers
 
         public WorkController(AppDbContext context)
         {
-            _context = context;
+            _context=context;
         }
 
         public IActionResult Index()
         {
+            var transformComponent = _context.TransformComponents.FirstOrDefault(tc => !tc.IsDeleted);
             var workCategories = _context.WorkCategories
                                         .Include(x => x.Works)
                                         .ToList();
 
             var model = new WorkIndexVM
             {
-                WorkCategories = workCategories
+                WorkCategories = workCategories,
+                TransformComponent=transformComponent
             };
 
             return View(model);
