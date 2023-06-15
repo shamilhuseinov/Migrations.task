@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/PurpleBuzz.csproj": {}
+    "/Users/samil/Desktop/CRUD/PurpleBuzz/PurpleBuzz.csproj": {}
   },
   "projects": {
-    "/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/PurpleBuzz.csproj": {
+    "/Users/samil/Desktop/CRUD/PurpleBuzz/PurpleBuzz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/PurpleBuzz.csproj",
+        "projectUniqueName": "/Users/samil/Desktop/CRUD/PurpleBuzz/PurpleBuzz.csproj",
         "projectName": "PurpleBuzz",
-        "projectPath": "/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/PurpleBuzz.csproj",
+        "projectPath": "/Users/samil/Desktop/CRUD/PurpleBuzz/PurpleBuzz.csproj",
         "packagesPath": "/Users/samil/.nuget/packages/",
-        "outputPath": "/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/obj/",
+        "outputPath": "/Users/samil/Desktop/CRUD/PurpleBuzz/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/samil/.nuget/NuGet/NuGet.Config"

@@ -9,5 +9,7 @@ namespace PurpleBuzz.ViewModels.About
         public WhyYouChoose WhyYouChoose { get; set; }
 
         public List<Our> Ours { get; set; }
+
+        public List<TeamMember> TeamMembers { get; set; }
     }
 }

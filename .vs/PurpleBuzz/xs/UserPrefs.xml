@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{3CFE2C7B-CF65-40FB-9A69-10571632257A}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PurpleBuzz" expanded="True">
+            <Node name="PurpleBuzz" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Areas" expanded="True">
+                <Node name="Admin" expanded="True">
+                  <Node name="ViewModels" expanded="True">
+                    <Node name="TeamMember" expanded="True" />
+                  </Node>
+                  <Node name="Views" expanded="True">
+                    <Node name="TeamMember" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="ViewModels" expanded="True">
+                <Node name="About" expanded="True" />
+                <Node name="Contact" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="About" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PurpleBuzz PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>

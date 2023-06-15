@@ -31,6 +31,8 @@
     <None Remove="Views\Shared\" />
     <None Remove="Areas\Admin\Views\Shared\" />
     <None Remove="Areas\Admin\ViewModels\TransformComponent\" />
+    <None Remove="Areas\Admin\Views\TeamMember\" />
+    <None Remove="Areas\Admin\ViewModels\TeamMember\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\Contact\" />
@@ -45,6 +47,8 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="Areas\Admin\Views\Shared\" />
     <Folder Include="Areas\Admin\ViewModels\TransformComponent\" />
+    <Folder Include="Areas\Admin\Views\TeamMember\" />
+    <Folder Include="Areas\Admin\ViewModels\TeamMember\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\Admin\" />

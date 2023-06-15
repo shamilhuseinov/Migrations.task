@@ -19,5 +19,6 @@ namespace PurpleBuzz.DAL
         public DbSet<ContactSuccessCompaign> ContactSuccessCompaigns { get; set; }
         public DbSet<ContactContacts> ContactContacts { get; set; }
         public DbSet<TransformComponent> TransformComponents { get; set; }
+        public DbSet<TeamMember> TeamMembers { get; set; }
     }
 }

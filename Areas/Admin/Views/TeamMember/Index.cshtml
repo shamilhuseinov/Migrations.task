@@ -1,0 +1,64 @@
+﻿@using PurpleBuzz.Areas.Admin.ViewModels.TeamMember
+@model TeamMemberIndexVM
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Team Members</h1>
+
+    <a class="btn btn-primary" asp-action="create" , asp-controller="teammember">Create</a>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Major</th>
+                            <th>Status</th>
+                            <th>Created date</th>
+                            <th>Modified date</th>
+                            <th>Deleted date</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var teamMember in Model.TeamMembers)
+                        {
+                            <tr>
+                                <td>@teamMember.Name</td>
+                                <td>@teamMember.Major</td>
+                                <td>
+                                    @if (!teamMember.IsDeleted)
+                                    {
+                                        <span class="text-success">Active</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="text-danger">Non-active</span>
+                                    }
+
+                                </td>
+                                <td>@teamMember.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+                                <td>@teamMember.ModifiedAt?.ToString("dd.MM.yyyy HH:mm")</td>
+                                <td>@teamMember.DeletedAt?.ToString("dd.MM.yyyy HH:mm")</td>
+
+                                @if (!teamMember.IsDeleted)
+                                {
+                                    <td><a asp-action="update" asp-controller="teammember" asp-route-id="@teamMember.Id" class="btn btn-primary">Update</a></td>
+                                    <td><a id="delete" onclick="return ConfirmDelete()" asp-action="delete" asp-controller="teammember" asp-route-id="@teamMember.Id" class="btn btn-danger">Delete</a></td>
+                                }
+                                <td><a asp-action="details" asp-controller="teammember" asp-route-id="@teamMember.Id" class="btn btn-info">Details</a></td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

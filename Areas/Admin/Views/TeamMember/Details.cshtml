@@ -1,0 +1,47 @@
+﻿@using PurpleBuzz.Areas.Admin.ViewModels.TeamMember
+@model TeamMemberDetailsVM
+
+<a class="btn btn-primary" asp-action="index" asp-controller="teammember">Return to list</a>
+
+<h4>PhotoPath</h4>
+<span>@Model.PhotoPath</span>
+
+<br />
+
+<h4>Name</h4>
+<span>@Model.Name</span>
+
+<br />
+
+<h4>Major</h4>
+<span>@Model.Major</span>
+
+<br />
+
+<h4>Status</h4>
+<span>
+    @if (Model.IsDeleted)
+        {
+            <span class="text-danger">Non-active</span>
+        }
+else
+{
+    <span>Active</span>
+}
+</span>
+
+<br />
+
+<h4>Creation date</h4>
+<td>@Model.CreatedAt.ToString("dd.MM.yyyy HH:mm")</td>
+
+
+<br />
+
+<h4>Modified date</h4>
+<td>@Model.ModifiedAt?.ToString("dd.MM.yyyy HH:mm")</td>
+
+<br />
+
+<h4>Deleted date</h4>
+<td>@Model.DeletedAt?.ToString("dd.MM.yyyy HH:mm")</td>

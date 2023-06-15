@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "vAJ5zuMqm9M5OJ+0/DCbPNMIaknkCasLXYl+OHe3VbBMyfjCiICLwts6UtlC6dV3CjkfqIPX8x8injsm/6erow==",
+  "dgSpecHash": "WGS9/1WvHfOOOTwpKIqrvk3tgkE1tJ9uH1coUGBtP4RNCXWLlDdwJXgA3x1CgB0bd+5RzhposPt05fNArk5d1Q==",
   "success": true,
-  "projectFilePath": "/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/PurpleBuzz.csproj",
+  "projectFilePath": "/Users/samil/Desktop/CRUD/PurpleBuzz/PurpleBuzz.csproj",
   "expectedPackageFiles": [
     "/Users/samil/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/samil/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",

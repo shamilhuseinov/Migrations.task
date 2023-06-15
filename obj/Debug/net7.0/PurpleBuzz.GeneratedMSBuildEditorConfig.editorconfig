@@ -9,69 +9,85 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PurpleBuzz
 build_property.RootNamespace = PurpleBuzz
-build_property.ProjectDir = /Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/
+build_property.ProjectDir = /Users/samil/Desktop/CRUD/PurpleBuzz/
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz
+build_property.MSBuildProjectDirectory = /Users/samil/Desktop/CRUD/PurpleBuzz
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/Dashboard/Index.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/Dashboard/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvRGFzaGJvYXJkL0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/Shared/_Layout.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/TransformComponent/Create.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/TeamMember/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVhbU1lbWJlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/TeamMember/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVhbU1lbWJlci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/TeamMember/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVhbU1lbWJlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/TeamMember/Update.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVGVhbU1lbWJlci9VcGRhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/TransformComponent/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVHJhbnNmb3JtQ29tcG9uZW50L0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/TransformComponent/Details.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/TransformComponent/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVHJhbnNmb3JtQ29tcG9uZW50L0RldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/TransformComponent/Index.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/TransformComponent/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvVHJhbnNmb3JtQ29tcG9uZW50L0luZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/_ViewImports.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Areas/Admin/Views/_ViewStart.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Areas/Admin/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXMvQWRtaW4vVmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/About/Index.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWJvdXQvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/Contact/Index.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/Contact/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ29udGFjdC9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/Home/Index.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/Shared/_Layout.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/User/Create.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/User/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/Work/Index.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/Work/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvV29yay9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/_ViewImports.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/samil/Desktop/PurpleBuzz_backend/PurpleBuzz/Views/_ViewStart.cshtml]
+[/Users/samil/Desktop/CRUD/PurpleBuzz/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
